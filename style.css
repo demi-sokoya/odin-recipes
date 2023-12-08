@@ -2,6 +2,11 @@
     text-align: center;
 }
 
-h2 {
+.subsection {
     text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.description {
+    text-decoration: wavy;
 }
