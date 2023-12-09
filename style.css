@@ -1,15 +1,28 @@
 .dish-name,
-.description {
+.description,
+.subsection,
+#main-heading {
     text-align: center;
 }
 
 .subsection {
-    text-align: center;
     background-color: lightgoldenrodyellow;
 }
 
 .description {
     font-style: italic;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients,
+.steps {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .ingredients {
@@ -20,4 +33,10 @@
 .steps {
     background-color: #ffc3df;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.next-page,
+.previous-page {
+    display: block;
+    text-align: end;
 }
