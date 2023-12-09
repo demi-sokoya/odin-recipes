@@ -1,4 +1,5 @@
-.dish-name {
+.dish-name,
+.description {
     text-align: center;
 }
 
@@ -8,5 +9,15 @@
 }
 
 .description {
-    text-decoration: wavy;
+    font-style: italic;
+}
+
+.ingredients {
+    background-color: #ffe989;
+    font-family: monospace;
+}
+
+.steps {
+    background-color: #ffc3df;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
