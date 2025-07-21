@@ -1,0 +1,22 @@
+html {
+    background-color: antiquewhite;
+}
+
+h1,
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Farsan;
+    src: url(./Farsan-Regular.ttf);
+}
+
+li {
+    font-family: Farsan, Helvetica, sans-serif;
+}
+
+.images {
+    height: auto;
+    width: 20%;
+}
