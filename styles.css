@@ -20,3 +20,13 @@ li {
     height: auto;
     width: 20%;
 }
+
+.recipe-list {
+    display: flex;
+    width: auto;
+}
+
+.recipe-item {
+    margin: 0 20px;
+    display: inline-block;
+}
