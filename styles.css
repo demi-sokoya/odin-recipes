@@ -23,10 +23,26 @@ li {
 
 .recipe-list {
     display: flex;
-    width: auto;
+    margin: 20px;
 }
 
 .recipe-item {
-    margin: 0 20px;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.recipe-item a {
+    color: white;
+}
+
+.recipe-item:hover {
+    background-color: maroon;
 }
